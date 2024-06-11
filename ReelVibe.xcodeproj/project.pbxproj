@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAE91D72C182B7100F157A5 /* ReelVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE91D62C182B7100F157A5 /* ReelVibeApp.swift */; };
+		BCAE91D92C182B7100F157A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE91D82C182B7100F157A5 /* ContentView.swift */; };
+		BCAE91DB2C182B7300F157A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAE91DA2C182B7300F157A5 /* Assets.xcassets */; };
+		BCAE91DE2C182B7300F157A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAE91DD2C182B7300F157A5 /* Preview Assets.xcassets */; };
+		BCAE91E82C182B7600F157A5 /* ReelVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE91E72C182B7600F157A5 /* ReelVibeTests.swift */; };
+		BCAE91F22C182B7600F157A5 /* ReelVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE91F12C182B7600F157A5 /* ReelVibeUITests.swift */; };
+		BCAE91F42C182B7600F157A5 /* ReelVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE91F32C182B7600F157A5 /* ReelVibeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAE91E42C182B7600F157A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE91CB2C182B7100F157A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE91D22C182B7100F157A5;
+			remoteInfo = ReelVibe;
+		};
+		BCAE91EE2C182B7600F157A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE91CB2C182B7100F157A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE91D22C182B7100F157A5;
+			remoteInfo = ReelVibe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCAE91D32C182B7100F157A5 /* ReelVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReelVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE91D62C182B7100F157A5 /* ReelVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelVibeApp.swift; sourceTree = "<group>"; };
+		BCAE91D82C182B7100F157A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCAE91DA2C182B7300F157A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAE91DD2C182B7300F157A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCAE91E32C182B7600F157A5 /* ReelVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE91E72C182B7600F157A5 /* ReelVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelVibeTests.swift; sourceTree = "<group>"; };
+		BCAE91ED2C182B7600F157A5 /* ReelVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReelVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE91F12C182B7600F157A5 /* ReelVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelVibeUITests.swift; sourceTree = "<group>"; };
+		BCAE91F32C182B7600F157A5 /* ReelVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAE91D02C182B7100F157A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91E02C182B7600F157A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91EA2C182B7600F157A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAE91CA2C182B7100F157A5 = {
+			isa = PBXGroup;
+			children = (
+				BCAE91D52C182B7100F157A5 /* ReelVibe */,
+				BCAE91E62C182B7600F157A5 /* ReelVibeTests */,
+				BCAE91F02C182B7600F157A5 /* ReelVibeUITests */,
+				BCAE91D42C182B7100F157A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAE91D42C182B7100F157A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE91D32C182B7100F157A5 /* ReelVibe.app */,
+				BCAE91E32C182B7600F157A5 /* ReelVibeTests.xctest */,
+				BCAE91ED2C182B7600F157A5 /* ReelVibeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAE91D52C182B7100F157A5 /* ReelVibe */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE91D62C182B7100F157A5 /* ReelVibeApp.swift */,
+				BCAE91D82C182B7100F157A5 /* ContentView.swift */,
+				BCAE91DA2C182B7300F157A5 /* Assets.xcassets */,
+				BCAE91DC2C182B7300F157A5 /* Preview Content */,
+			);
+			path = ReelVibe;
+			sourceTree = "<group>";
+		};
+		BCAE91DC2C182B7300F157A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE91DD2C182B7300F157A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCAE91E62C182B7600F157A5 /* ReelVibeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE91E72C182B7600F157A5 /* ReelVibeTests.swift */,
+			);
+			path = ReelVibeTests;
+			sourceTree = "<group>";
+		};
+		BCAE91F02C182B7600F157A5 /* ReelVibeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE91F12C182B7600F157A5 /* ReelVibeUITests.swift */,
+				BCAE91F32C182B7600F157A5 /* ReelVibeUITestsLaunchTests.swift */,
+			);
+			path = ReelVibeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAE91D22C182B7100F157A5 /* ReelVibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE91F72C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibe" */;
+			buildPhases = (
+				BCAE91CF2C182B7100F157A5 /* Sources */,
+				BCAE91D02C182B7100F157A5 /* Frameworks */,
+				BCAE91D12C182B7100F157A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReelVibe;
+			productName = ReelVibe;
+			productReference = BCAE91D32C182B7100F157A5 /* ReelVibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAE91E22C182B7600F157A5 /* ReelVibeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE91FA2C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibeTests" */;
+			buildPhases = (
+				BCAE91DF2C182B7600F157A5 /* Sources */,
+				BCAE91E02C182B7600F157A5 /* Frameworks */,
+				BCAE91E12C182B7600F157A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE91E52C182B7600F157A5 /* PBXTargetDependency */,
+			);
+			name = ReelVibeTests;
+			productName = ReelVibeTests;
+			productReference = BCAE91E32C182B7600F157A5 /* ReelVibeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAE91EC2C182B7600F157A5 /* ReelVibeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE91FD2C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibeUITests" */;
+			buildPhases = (
+				BCAE91E92C182B7600F157A5 /* Sources */,
+				BCAE91EA2C182B7600F157A5 /* Frameworks */,
+				BCAE91EB2C182B7600F157A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE91EF2C182B7600F157A5 /* PBXTargetDependency */,
+			);
+			name = ReelVibeUITests;
+			productName = ReelVibeUITests;
+			productReference = BCAE91ED2C182B7600F157A5 /* ReelVibeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAE91CB2C182B7100F157A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BCAE91D22C182B7100F157A5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BCAE91E22C182B7600F157A5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BCAE91D22C182B7100F157A5;
+					};
+					BCAE91EC2C182B7600F157A5 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BCAE91D22C182B7100F157A5;
+					};
+				};
+			};
+			buildConfigurationList = BCAE91CE2C182B7100F157A5 /* Build configuration list for PBXProject "ReelVibe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAE91CA2C182B7100F157A5;
+			productRefGroup = BCAE91D42C182B7100F157A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAE91D22C182B7100F157A5 /* ReelVibe */,
+				BCAE91E22C182B7600F157A5 /* ReelVibeTests */,
+				BCAE91EC2C182B7600F157A5 /* ReelVibeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAE91D12C182B7100F157A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE91DE2C182B7300F157A5 /* Preview Assets.xcassets in Resources */,
+				BCAE91DB2C182B7300F157A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91E12C182B7600F157A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91EB2C182B7600F157A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAE91CF2C182B7100F157A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE91D92C182B7100F157A5 /* ContentView.swift in Sources */,
+				BCAE91D72C182B7100F157A5 /* ReelVibeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91DF2C182B7600F157A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE91E82C182B7600F157A5 /* ReelVibeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE91E92C182B7600F157A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE91F42C182B7600F157A5 /* ReelVibeUITestsLaunchTests.swift in Sources */,
+				BCAE91F22C182B7600F157A5 /* ReelVibeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAE91E52C182B7600F157A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE91D22C182B7100F157A5 /* ReelVibe */;
+			targetProxy = BCAE91E42C182B7600F157A5 /* PBXContainerItemProxy */;
+		};
+		BCAE91EF2C182B7600F157A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE91D22C182B7100F157A5 /* ReelVibe */;
+			targetProxy = BCAE91EE2C182B7600F157A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCAE91F52C182B7600F157A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAE91F62C182B7600F157A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE91F82C182B7600F157A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReelVibe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAE91F92C182B7600F157A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReelVibe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCAE91FB2C182B7600F157A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReelVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReelVibe";
+			};
+			name = Debug;
+		};
+		BCAE91FC2C182B7600F157A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReelVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReelVibe";
+			};
+			name = Release;
+		};
+		BCAE91FE2C182B7600F157A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReelVibe;
+			};
+			name = Debug;
+		};
+		BCAE91FF2C182B7600F157A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zeta.ReelVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReelVibe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAE91CE2C182B7100F157A5 /* Build configuration list for PBXProject "ReelVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE91F52C182B7600F157A5 /* Debug */,
+				BCAE91F62C182B7600F157A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE91F72C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE91F82C182B7600F157A5 /* Debug */,
+				BCAE91F92C182B7600F157A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE91FA2C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE91FB2C182B7600F157A5 /* Debug */,
+				BCAE91FC2C182B7600F157A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE91FD2C182B7600F157A5 /* Build configuration list for PBXNativeTarget "ReelVibeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE91FE2C182B7600F157A5 /* Debug */,
+				BCAE91FF2C182B7600F157A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAE91CB2C182B7100F157A5 /* Project object */;
+}
