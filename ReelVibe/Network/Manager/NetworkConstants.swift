@@ -26,7 +26,7 @@ class NetworkConstants {
         }
     }
     
-    public var serverAddress: String {
+    public var baseUrl: String {
         get {
             return "https://api.themoviedb.org/3/"
         }

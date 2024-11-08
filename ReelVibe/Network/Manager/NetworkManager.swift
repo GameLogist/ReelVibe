@@ -20,11 +20,26 @@ class NetworkManager {
                 return
             }
             
-            if let data = data, let responseModel = try? JSONDecoder().decode(T.self, from: data) {
+            //check if data is empty
+            guard let data = data else {
+                completion(Result.failure(ErrorModel(errors: [ErrorSummary(code: "", reason: "no data received", datetime: nil)])))
+                return
+            }
+            
+            // Decoding data for Codable types with proper error handling
+            do {
+                let responseModel = try JSONDecoder().decode(T.self, from: data)
                 completion(Result.success(responseModel))
-            } else {
-                guard let data = data, let error = try? JSONDecoder().decode(ErrorModel.self, from: data) else { return }
-                completion(Result.failure(error))
+            } catch {
+                print("Failed to decode response: \(error.localizedDescription)")
+                do {
+                    let errorModel = try JSONDecoder().decode(ErrorModel.self, from: data)
+                    completion(Result.failure(errorModel))
+                } catch {
+                    print("Failed to decode error response: \(error.localizedDescription)")
+                    let fallbackError = ErrorModel(errors: [ErrorSummary(code: "", reason: "Failed to decode data", datetime: nil)])
+                    completion(Result.failure(fallbackError))
+                }
             }
             
         }.resume()
