@@ -22,6 +22,12 @@ public enum HTTPMethod: String {
 class RequestModel: NSObject {
     
     // MARK: - Properties
+    
+    // new property that handles different baseUrl
+    var customBaseUrl: String {
+        return ""
+    }
+    
     var path: String {
         return ""
     }
@@ -51,11 +57,11 @@ class RequestModel: NSObject {
 extension RequestModel {
     
     func urlRequest() -> URLRequest? {
-        var endpoint: String = NetworkConstants.shared.serverAddress.appending(path)
-        
+        var endpoint: String = customBaseUrl != "" ? customBaseUrl.appending(path) : NetworkConstants.shared.baseUrl.appending(path)
+
         var flag: Bool = true
         for parameter in parameters {
-            if let value = parameter.value as? String {
+            if let value = parameter.value {
                 if flag {
                     flag = false
                     endpoint.append("?\(parameter.key)=\(value)")
@@ -75,11 +81,24 @@ extension RequestModel {
             request.addValue(header.value, forHTTPHeaderField: header.key)
         }
         
-        if method != HTTPMethod.get {
-            do {
-                request.httpBody = try JSONSerialization.data(withJSONObject: body, options: JSONSerialization.WritingOptions.prettyPrinted)
-            } catch let error {
-                print("Request body parse error: \(error.localizedDescription)")
+        if method != .get {
+            if method == .post || method == .put || method == .patch {
+                request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+                
+                // Handle URL encoding of the body parameters
+                let urlEncodedString = body.compactMap { (key, value) -> String? in
+                    guard let value = value else { return nil }
+                    return "\(key)=\(value)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+                }.joined(separator: "&")
+                request.httpBody = urlEncodedString.data(using: .utf8)
+            } else {
+                // Use JSON encoding for other types if necessary
+                do {
+                    request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+                    request.httpBody = try JSONSerialization.data(withJSONObject: body, options: [])
+                } catch let error {
+                    print("Request body parse error: \(error.localizedDescription)")
+                }
             }
         }
         
